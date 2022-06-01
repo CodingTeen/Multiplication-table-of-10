@@ -1,0 +1,9 @@
+#Multiplication table of 1
+Number = 1
+
+#Now follow the steps given below:
+for count in range(1,11):
+    product = Number * count
+    print(Number, "*", count, "=", product)
+
+#Now you have created multiplication table using loops
